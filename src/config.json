@@ -38,8 +38,8 @@
     },
     "gameMap": {
         "metrics": {
-            "width": 500,
-            "height": 500
+            "width": 3500,
+            "height": 3500
         },
         "color": "#b6db66"
     },
