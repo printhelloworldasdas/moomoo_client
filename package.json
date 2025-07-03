@@ -1,0 +1,25 @@
+{
+  "name": "moomoo_io",
+  "version": "1.6.9",
+  "description": "Zombies vs Base",
+  "main": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack --mode development && node ./index.js",
+    "start": "node ./index.js"
+  },
+  "devDependencies": {
+    "msgpack-lite": "^0.1.26",
+    "terser-webpack-plugin": "^5.3.3",
+    "webpack": "^5.93.0",
+    "webpack-cli": "^4.10.0"
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "ws": "^8.13.0"
+  }
+}
