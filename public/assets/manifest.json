@@ -1,0 +1,17 @@
+{
+    "short_name": "MooMoo 1.6.9",
+    "name": "MooMoo 1.6.9",
+    "author": "Nudo",
+    "icons": [{
+        "src": "/assets/images/icons/nudo/avatar.png",
+        "type": "image/png",
+        "sizes": "550x550"
+    }, {
+        "src": "/assets/images/icons/nudo/banner.png",
+        "type": "image/png",
+        "sizes": "853x252"
+    }],
+    "background_color": "#1a1a1a",
+    "display": "standalone",
+    "theme_color": "#5c5c5c"
+}

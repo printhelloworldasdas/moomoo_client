@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta http-equiv="cache-control" content="no-cache">
+    
+    <link rel="manifest" href="./assets/manifest.json">
+    <link rel="shortcut icon" type="image/png" href="./assets/images/icons/favicon.ico">
+    <link rel="stylesheet" href="./assets/css/hammersmith_one.css">
+    <link rel="stylesheet" href="./assets/css/material_icons.css">
+    <link rel="stylesheet" href="./assets/css/index.css">
+
+    <title>Moo Moo</title>
+</head>
+<body class="">
+    <div class="app-holder">
+        <div class="main-menu-holder" id="main_menu">
+            <main class="main-menu-top"></main>
+
+            <main class="main-menu-middle">
+                <header class="main-menu-header">
+                    <span class="game-name" id="game_name">MooMoo.io</span>
+                    <span class="loading-text" id="loading_text">Loading...</span>
+                </header>
+
+                <container class="cards-container hidden" id="cards_container">
+                    <box class="card-wrapper" style="visibility: hidden;"></box>
+
+                    <box class="card-wrapper">
+                        <ul class="card-content-list">
+                            <li class="card-content">
+                                <input class="nickname-input" id="nickname_input" placeholder="Enter Name" maxlength="15">
+                            </li>
+
+                            <li class="card-content">
+                                <div class="mainmenu-button" id="enter_game" class="menuButton">
+                                    <span>Enter Game</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </box>
+
+                    <box class="card-wrapper">
+                        <ul class="card-content-list">
+                            <li class="card-content"><infoHeader>Servers</infoHeader></li>
+                            <li class="card-content"><select><option selected>Nudo server - ? players</option></select></li>
+
+                            <li class="card-content" style="margin-top: 10px;"><infoHeader>Select Color</infoHeader></li>
+                            <li class="card-content"><ul class="select-color-list" id="select_skin_color_list"></ul></li>
+
+                            <li class="card-content"><infoHeader>How To Play</infoHeader></li>
+                            <li class="card-content"><infoContent>Place base and kill zombies.</infoContent></li>
+
+                            <li class="card-content"><infoHeader>Controls</infoHeader></li>
+                            <li class="card-content"><infoContent>Movement: W, A, S, D<br>Look: Mouse<br>Gather/Attack: Mouse or Space<br>Auto Attack: E<br>Select Item: 1-9 or Click<br>Quick Select Food: Q<br>Lock Rotation: X<br>Ping Minimap: R<br>Add Map Marker: C<br>Chat: Enter Key<br>Close Windows: ESC</infoContent></li>
+                        </ul>
+                    </box>
+                </container>
+            </main>
+
+            <main class="main-menu-bottom">
+                <container class="links-container">
+                    <box class="link-box">
+                        <a href="./versions.txt" target="_blank">v1.6.9</a>
+                    </box>
+                    <step></step>
+                    <box class="link-box">
+                        <a>Discord</a>
+                    </box>
+                </container>
+            </main>
+        </div>
+
+        <ul class="game-ui-holder hidden" id="game_ui">
+            <main class="game-ui-wrapper">
+                <container class="game-ui-container game-ui-top">
+                    <box class="game-ui-container-box">
+                        1
+                    </box>
+
+                    <box class="game-ui-container-box">
+                        <ul class="debug-content-list">
+                            <li class="debug-content-item" id="ping">
+                                <span>Ping: 100</span>
+                            </li>
+                            <li class="debug-content-item" id="fps">
+                                <span>FPS: 30</span>
+                            </li>
+                        </ul>
+                    </box>
+
+                    <box class="game-ui-container-box">
+                        3
+                    </box>
+                </container>
+
+                <container class="game-ui-container game-ui-middle">2</container>
+
+                <container class="game-ui-container game-ui-bottom">
+                    <box class="game-ui-container-box">
+                        <canvas class="minimap-canvas" id="minimap_canvas"></canvas>
+                    </box>
+                    <box class="game-ui-container-box"></box>
+                    <box class="game-ui-container-box"></box>
+                </container>
+            </main>
+        </div>
+    </div>
+
+    <canvas class="game-canvas" id="game_canvas" width="300" height="300"></canvas>
+
+    <script src="./assets/js/bundle.js"></script>
+</body>
+</html>
