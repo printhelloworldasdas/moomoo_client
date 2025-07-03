@@ -1,0 +1,90 @@
+{
+    "_debug": {
+        "_active": true,
+        "debugs": {
+            "socket": {
+                "debugging": true,
+                "connecting": true,
+                "connected": true,
+                "disconnected": true,
+                "receivePacket": false,
+                "sendPacket": false
+            }
+        }
+    },
+    "serverData": {
+        "maxPlayers": 2,
+        "tps": 9,
+        "port": 3000,
+        "fileRequests": [
+            [ "/", "/templates/index.html" ],
+            [ "/versions.txt", "/templates/versions.txt" ],
+            "/assets/css/index.css",
+            "/assets/css/hammersmith_one.css",
+            "/assets/css/material_icons.css",
+            "/assets/js/bundle.js",
+            "/assets/manifest.json",
+            "/assets/fonts/hammersmith_one.woff2"
+        ]
+    },
+    "clientData": {
+        "sendRate": 8
+    },
+    "scene": {
+        "viewport": {
+            "width": 1920,
+            "height": 1080
+        }
+    },
+    "gameMap": {
+        "metrics": {
+            "width": 500,
+            "height": 500
+        },
+        "color": "#b6db66"
+    },
+    "entities": {
+        "player": {
+            "metrics": {
+                "scale": 35
+            },
+            "stats": {
+                "spawnHealth": 100,
+                "maxHealth": 100,
+                "spawnAge": 1,
+                "maxAge": 100
+            },
+            "nickname": {
+                "maxLength": 15,
+                "fillColor": "#ffffff",
+                "strokeColor": "#3d3f42",
+                "strokeWidth": 8,
+                "font": "30px Hammersmith One",
+                "offsetY": 34
+            },
+            "skin": {
+                "colors": [ "#bf8f54", "#cbb091", "#896c4b", "#fadadc", "#ececec", "#c37373", "#4c4c4c", "#ecaff7", "#738cc3", "#8bc373" ],
+                "body": {
+                    "strokeColor": "#525252",
+                    "strokeWidth": 5.5
+                },
+                "hands": {
+                    "strokeColor": "#525252",
+                    "strokeWidth": 5.5
+                }
+            },
+            "movement": {
+                "speed": 0.0016,
+                "decel": 0.993
+            }
+        }
+    },
+    "binds": {
+        "movement": {
+            "left": 65,
+            "right": 68,
+            "up": 87,
+            "down": 83
+        }
+    }
+}

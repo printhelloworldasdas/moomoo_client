@@ -1,0 +1,15 @@
+{
+    "SERVER": {
+        "TEST_PACKET": "test_packet",
+        "CREATE_LOCAL_PLAYER": "create_local_player",
+        "ADD_PLAYER": "add_player",
+        "REMOVE_PLAYER": "remove_player",
+        "UPDATE_PLAYERS": "update_players"
+    },
+    "CLIENT": {
+        "TEST_PACKET": "test_packet",
+        "ENTER_GAME": "enter_game",
+        "UPDATE_WATCH_ANGLE": "update_watch_angle",
+        "UPDATE_MOVE_ANGLE": "update_move_angle"
+    }
+}

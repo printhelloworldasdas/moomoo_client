@@ -1,0 +1,110 @@
+{
+    "moofie": "/animals/bosses/moofie",    
+    "moostafa": "/animals/bosses/moostafa",    
+    "treasure": "/animals/bosses/treasure",
+
+    "bull": "/animals/hostile/bull",
+    "bully": "/animals/hostile/bully",
+    "wolf": "/animals/hostile/wolf",
+
+    "chicken": "/animals/passive/chicken",
+    "cow": "/animals/passive/cow",
+    "pig": "/animals/passive/pig",
+
+    "nudo_avatar": "/icons/nudo/avatar",
+    "nudo_banner": "/icons/nudo/banner",
+
+    "food_icon": "/icons/resources/food_icon",
+    "gold_icon": "/icons/resources/gold_icon",
+    "stone_icon": "/icons/resources/stone_icon",
+    "wood_icon": "/icons/resources/wood_icon",
+
+    "crown_icon": "/icons/ui/crown_icon",
+    "skull_icon": "/icons/ui/skull_icon",
+
+    "arrow": "/projectiles/arrow/arrow",
+    "arrow_gold": "/projectiles/arrow/arrow_gold",
+    "arrow_diamond": "/projectiles/arrow/arrow_diamond",
+
+    "bat": "/weapons/primary/bat/bat",
+    "bat_gold": "/weapons/primary/bat/bat_gold",
+    "bat_diamond": "/weapons/primary/bat/bat_diamond",
+    "bat_ruby": "/weapons/primary/bat/bat_ruby",
+
+    "daggers": "/weapons/primary/daggers/daggers",
+    "daggers_gold": "/weapons/primary/daggers/daggers_gold",
+    "daggers_diamond": "/weapons/primary/daggers/daggers_diamond",
+    "daggers_ruby": "/weapons/primary/daggers/daggers_ruby",
+
+    "great_axe": "/weapons/primary/great_axe/great_axe",
+    "great_axe_gold": "/weapons/primary/great_axe/great_axe_gold",
+    "great_axe_diamond": "/weapons/primary/great_axe/great_axe_diamond",
+    "great_axe_ruby": "/weapons/primary/great_axe/great_axe_ruby",
+
+    "hand_axe": "/weapons/primary/hand_axe/hand_axe",
+    "hand_axe_gold": "/weapons/primary/hand_axe/hand_axe_gold",
+    "hand_axe_diamond": "/weapons/primary/hand_axe/hand_axe_diamond",
+    "hand_axe_ruby": "/weapons/primary/hand_axe/hand_axe_ruby",
+
+    "katana": "/weapons/primary/katana/katana",
+    "katana_gold": "/weapons/primary/katana/katana_gold",
+    "katana_diamond": "/weapons/primary/katana/katana_diamond",
+    "katana_ruby": "/weapons/primary/katana/katana_ruby",
+
+    "polearm": "/weapons/primary/polearm/polearm",
+    "polearm_gold": "/weapons/primary/polearm/polearm_gold",
+    "polearm_diamond": "/weapons/primary/polearm/polearm_diamond",
+    "polearm_ruby": "/weapons/primary/polearm/polearm_ruby",
+
+    "short_sword": "/weapons/primary/short_sword/short_sword",
+    "short_sword_gold": "/weapons/primary/short_sword/short_sword_gold",
+    "short_sword_diamond": "/weapons/primary/short_sword/short_sword_diamond",
+    "short_sword_ruby": "/weapons/primary/short_sword/short_sword_ruby",
+
+    "stick": "/weapons/primary/stick/stick",
+    "stick_gold": "/weapons/primary/stick/stick_gold",
+    "stick_diamond": "/weapons/primary/stick/stick_diamond",
+    "stick_ruby": "/weapons/primary/stick/stick_ruby",
+
+    "tool_hammer": "/weapons/primary/tool_hammer/tool_hammer",
+    "tool_hammer_gold": "/weapons/primary/tool_hammer/tool_hammer_gold",
+    "tool_hammer_diamond": "/weapons/primary/tool_hammer/tool_hammer_diamond",
+    "tool_hammer_ruby": "/weapons/primary/tool_hammer/tool_hammer_ruby",
+
+    "crossbow": "/weapons/secondary/crossbow/crossbow",
+    "crossbow_gold": "/weapons/secondary/crossbow/crossbow_gold",
+    "crossbow_diamond": "/weapons/secondary/crossbow/crossbow_diamond",
+    "crossbow_ruby": "/weapons/secondary/crossbow/crossbow_ruby",
+
+    "great_hammer": "/weapons/secondary/great_hammer/great_hammer",
+    "great_hammer_gold": "/weapons/secondary/great_hammer/great_hammer_gold",
+    "great_hammer_diamond": "/weapons/secondary/great_hammer/great_hammer_diamond",
+    "great_hammer_ruby": "/weapons/secondary/great_hammer/great_hammer_ruby",
+
+    "hunting_bow": "/weapons/secondary/hunting_bow/hunting_bow",
+    "hunting_bow_gold": "/weapons/secondary/hunting_bow/hunting_bow_gold",
+    "hunting_bow_diamond": "/weapons/secondary/hunting_bow/hunting_bow_diamond",
+    "hunting_bow_ruby": "/weapons/secondary/hunting_bow/hunting_bow_ruby",
+
+    "mc_grabby": "/weapons/secondary/mc_grabby/mc_grabby",
+    "mc_grabby_gold": "/weapons/secondary/mc_grabby/mc_grabby_gold",
+    "mc_grabby_diamond": "/weapons/secondary/mc_grabby/mc_grabby_diamond",
+    "mc_grabby_ruby": "/weapons/secondary/mc_grabby/mc_grabby_ruby",
+
+    "musket": "/weapons/secondary/musket/musket",
+    "musket_gold": "/weapons/secondary/musket/musket_gold",
+    "musket_diamond": "/weapons/secondary/musket/musket_diamond",
+    "musket_ruby": "/weapons/secondary/musket/musket_ruby",
+
+    "repeater_crossbow": "/weapons/secondary/repeater_crossbow/repeater_crossbow",
+    "repeater_crossbow_gold": "/weapons/secondary/repeater_crossbow/repeater_crossbow_gold",
+    "repeater_crossbow_diamond": "/weapons/secondary/repeater_crossbow/repeater_crossbow_diamond",
+    "repeater_crossbow_ruby": "/weapons/secondary/repeater_crossbow/repeater_crossbow_ruby",
+
+    "shield": "/weapons/secondary/shield/shield",
+    "shield_gold": "/weapons/secondary/shield/shield_gold",
+    "shield_diamond": "/weapons/secondary/shield/shield_diamond",
+    "shield_ruby": "/weapons/secondary/shield/shield_ruby",
+
+    "sport_aqua_car": "/cars/sport_aqua_car"
+}
