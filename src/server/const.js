@@ -1,15 +1,21 @@
-import { fileURLToPath } from "url"
-import path from "path"
-import config from "../config.json" assert { type: "json" }
-import protocol from "../protocol.json" assert { type: "json" }
-import WSServer from "./ws/WSServer.js"
-import Ticker from "./ticker/Ticker.js"
+import { fileURLToPath } from "url";
+import path from "path";
+import fs from "fs/promises";
 
-export const __filename = fileURLToPath(import.meta.url)
-export const __dirname = path.dirname(__filename)
+import WSServer from "./ws/WSServer.js";
+import Ticker from "./ticker/Ticker.js";
 
-export const gameConfig = config
-export const gameProtocol = protocol
+// Paths
+export const __filename = fileURLToPath(import.meta.url);
+export const __dirname = path.dirname(__filename);
 
-export const wsServer = new WSServer()
-export const ticker = new Ticker()
+// Load JSON files using fs
+const configPath = new URL("../config.json", import.meta.url);
+const protocolPath = new URL("../protocol.json", import.meta.url);
+
+export const gameConfig = JSON.parse(await fs.readFile(configPath, "utf-8"));
+export const gameProtocol = JSON.parse(await fs.readFile(protocolPath, "utf-8"));
+
+// Instances
+export const wsServer = new WSServer();
+export const ticker = new Ticker();
